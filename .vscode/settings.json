@@ -1,0 +1,60 @@
+{
+
+	"editor.quickSuggestions": {
+		"comments": false,
+		"strings": true,
+		"other": true
+	},
+	"cSpell.language": "en,es",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[Typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python"
+	},
+	"[feature]": {
+		"editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+	},
+	"editor.formatOnType": false,
+	"editor.formatOnPaste": false,
+	"editor.formatOnSave": false,
+	"editor.wordWrap": "on",
+	"editor.accessibilitySupport": "off",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"python.formatting.provider": "autopep8",
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+	"html.format.wrapLineLength": 150,
+	"prettier.singleQuote": true,
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"prettier.arrowParens": "avoid",
+	"workbench.settings.editor": "json",
+	"git.enableSmartCommit": true,
+	"editor.tabCompletion": "on",
+	"editor.lineHeight": 20,
+	"editor.cursorBlinking": "expand",
+	"cSpell.enableFiletypes": ["cucumber"],
+	"workbench.iconTheme": "material-icon-theme",
+	"material-icon-theme.folders.color": "#7cb342",
+	"cypressHelper.menuItems": {
+		"OpenCypress": false,
+		"RunCypress": false,
+		"GenerateCustomCommandTypes": true,
+		"GoToCustomCommand": false,
+		"FindCustomCommandReferences": true,
+		"FindStepDefinitionReferences": true,
+		"SchemaGenerator": false,
+		"ParseHAR": false,
+		"mockAutocomplete": false
+	},
+	"cSpell.autoFormatConfigFile": true,
+}

@@ -1,0 +1,18 @@
+{
+  "name": "cypressporfoliokt",
+  "description": "prueba tecnica para entrar a amazon",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "execute": "cypress run --browser chrome --spec"
+  },
+  "keywords": [
+    "cypress",
+    "amazon"
+  ],
+  "author": "upex",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  }
+}
