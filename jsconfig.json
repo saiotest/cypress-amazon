@@ -3,8 +3,8 @@
     "compilerOptions": {
         "types": ["cypress"],
         "paths": {
-            "@pages": ["./cypress/support/pages/*"],
-            "@data": ["./cypress/fixtures/*]"],
+            "@pages/*": ["./cypress/support/pages/*"],
+            "@data/*": ["./cypress/fixtures/*]"],
         }
-    }
+    },
 }

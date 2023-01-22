@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "execute": "cypress run --browser chrome --spec"
+    "execute": "cypress run --browser chrome --record --key b156eae0-47c1-46ed-84f4-8a6719edf9c0  --spec"
   },
   "keywords": [
     "cypress",
@@ -14,6 +14,12 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "cypress": "^12.3.0"
+    "cypress": "12.3.0",
+		"cypress-mochawesome-reporter": "3.2.3",
+		"cypress-multi-reporters": "1.6.2",
+		"mocha-junit-reporter": "2.2.0",
+		"mochawesome": "7.1.3",
+		"mochawesome-merge": "4.2.2",
+		"mochawesome-report-generator": "6.2.0"
   }
 }

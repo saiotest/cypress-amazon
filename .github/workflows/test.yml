@@ -1,0 +1,37 @@
+# name: Suite Test Execution
+# run-name: ${{github.actor}}👨🏻‍🔬 run Test Suite in ${{github.ref_name}}
+
+# on:
+#     push:
+#         branches:
+#           - "master"
+
+# jobs:
+#   RunTestSuite:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#         - name: Usar el Project del Repositorio
+#           uses: actions/checkout@v3
+
+#         - name: Instalar NODE 16
+#           uses: actions/setup-node@v3 
+#           with:
+#             node-version: 16
+
+#         - name: Instalar Dependencias
+#           run: |
+#             npm i
+#             npm list
+
+#         - name: Cypress Run 
+#           uses: cypress-io/github-action@v4
+#           with:
+#             browser: chrome
+#             command: |
+#                 npm run execute
+#             record: true 
+#           env:
+#             CYPRESS_RECORD_KEY: 
+#             GITHUB_TOKEN: ${{secrets.github_token}}
+            
