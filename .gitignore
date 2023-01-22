@@ -2,4 +2,5 @@ node_modules/
 downloads/
 videos/
 screenshots/
+mochawesome-report/
 reports/
