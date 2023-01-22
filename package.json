@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "execute": "cypress run --browser chrome --record --key b156eae0-47c1-46ed-84f4-8a6719edf9c0  --spec"
+    "execute": "cypress run --browser chrome --record --key b156eae0-47c1-46ed-84f4-8a6719edf9c0 --spec",
+    "regression": "cypress run --browser chrome --record --key b156eae0-47c1-46ed-84f4-8a6719edf9c0"
   },
   "keywords": [
     "cypress",
