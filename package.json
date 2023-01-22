@@ -12,6 +12,7 @@
   ],
   "author": "upex",
   "license": "ISC",
+  "type": "commonjs",
   "devDependencies": {
     "cypress": "^12.3.0"
   }
